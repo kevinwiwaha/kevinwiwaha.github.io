@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+}
+body::after{
+    content:'Ha?';
+    font-weight:bold;
+    color:white;
+    font-size:500px;
+    margin-left:50vh;
+    margin-top:30vh;
+    width:100px;
+    height:100px;
+    background-color:red;
+    border-radius:10px;
+    display:block;
+}
